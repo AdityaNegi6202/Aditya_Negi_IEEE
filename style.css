@@ -1,0 +1,132 @@
+/* Creation of the top bar containing the logo of NIET and IEEE*/
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url("abstract4.jpg");
+    background-size: 100%;
+}
+
+img{
+    width: 200px;
+}
+.left{
+    display: inline-block;
+    margin-left: 20px;
+}
+.right{
+    display: inline-block;
+    padding-left: 680px; /*Change it to 700px*/
+}
+.div_top_z{
+    border: 5px solid black;
+    background-image: url("abstract5.jpg");
+    background-size: 100%;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/* Creation of the nav bar*/
+
+
+nav{
+    height: 70px;
+    width: 1127px;
+    margin-bottom: 10px;
+}
+ul{
+    padding-top: 14px;
+    margin: 0px;
+}
+.nav_li{
+    display: inline-block;
+}
+.nav_link{
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia;
+    padding-right: 40px;
+    color:rgb(0, 0, 0);
+    transition: color, text-decoration;
+    transition-duration: 0.2s;
+}
+.nav_link:hover{
+    color: red;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(46, 44, 44);
+}
+#join_ieee{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 335px;
+    padding-left: 40px;
+
+    background-color: rgb(46, 44, 44);
+    border-radius: 100px;
+}
+#join{
+    color: whitesmoke;
+    transition: color;
+}
+#join:hover{
+    color: rgb(54, 224, 59);
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/* Creation of the main image and content of home page. */
+
+/*Creation of main div 1*/
+.main_div_1{
+    background-image:linear-gradient(#ffffff, rgb(108, 108, 235),#292626);
+    height: 450px;
+}
+
+#main_img{
+    width: 600px;
+    padding: 50px 0px;
+    border-radius: 100%;
+    padding-right: 20px;
+}
+.main_h1, .main_p{
+    font-family: cursive;
+    font-size:20px;
+    color: white;
+    padding-left: 30px;
+}
+.main_h1{
+    font-size: 40px;
+    color:black;
+    padding-left: 50px;
+}
+
+
+/*Creation of main div 2*/
+.main_div_2{
+    background: linear-gradient(white,rgb(242, 242, 107),rgb(229, 197, 137));
+    height: 260px;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+#mh2{
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold; 
+}
+#mp2{
+    color: black;
+    word-spacing: 5px;
+    margin-top: 30px;
+}
+#ma2{
+    color: red;
+    text-decoration-line: none;
+    font-family: cursive;
+    font-size:20px;
+    padding-left: 30px;
+}
+
+#main_div_2_img{
+    width: 1120px;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
